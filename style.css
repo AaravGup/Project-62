@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background: linear-gradient(lightyellow,yellow);
+}
+
+img {
+width: 300px;
+    height: 250px;
+}
+.head {   
+    color: darkgreen;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.row {
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.row>div {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
